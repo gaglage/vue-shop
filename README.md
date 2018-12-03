@@ -26,4 +26,9 @@ yarn run lint
 ```
 
 ### Customize configuration
+
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+### Curso
+
+https://www.udemy.com/vuejs-2-y-vuex-desde-0-con-las-mejores-practicas/sync
