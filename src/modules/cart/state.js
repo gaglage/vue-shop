@@ -1,3 +1,3 @@
-export default{
-    cart:[]
+export default {
+    cart: []
 }
