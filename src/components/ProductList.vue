@@ -44,7 +44,6 @@ export default {
   methods: {
     ...mapActions("products", ["fetchProducts"]),
     addProductToCart(product) {
-        alert()
       console.log(product);
     }
   }
