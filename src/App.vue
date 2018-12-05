@@ -5,21 +5,23 @@
           <product-list></product-list>
       </template>
       <template slot="cart">
-          Carrito
+          <cart></cart>
       </template>
     </shop-layout>
   </div>
 </template>
 
 <script>
-import ShopLayout from "@/components/ShopLayout";
+import Cart from "@/components/Cart";
 import ProductList from "@/components/ProductList";
+import ShopLayout from "@/components/ShopLayout";
 
 export default {
   name: "app",
   components: {
-    ShopLayout,
-    ProductList
+    Cart,
+    ProductList,
+    ShopLayout
   }
 };
 </script>

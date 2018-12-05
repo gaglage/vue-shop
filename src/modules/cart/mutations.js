@@ -2,8 +2,10 @@ import {
     find,
     filter
 } from 'lodash'
+
+
 export function addProduct(state, product) {
-    const productInCart = find(state.porductInCart, {
+    const productInCart = find(state.cart, {
         id: product.id
     })
     if (!productInCart) {
@@ -19,6 +21,8 @@ export function removeProductFromCart(state, product) {
     // ({id}) desestructurendo product.id
     // ({id}) => id !== product.id ************* (_product) => _product.id !== product.id
     //eliminamos con filter
-    state.cart = filter(state.cart, ({ id }) => id !== product.id)
-    
+    state.cart = filter(state.cart, ({
+        id
+    }) => id !== product.id)
+
 }
