@@ -1,3 +1,7 @@
 export default {
-    cart: []
+    cart: [{
+        id: 1,
+        price: 10,
+        qty: 5
+    }]
 }
